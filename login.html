@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="src/output.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+  <script src="https://kit.fontawesome.com/your-kit-id.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+ <div class="border lg:max-w-96 w-full mx-auto flex flex-col justify-start items-center h-screen">
+    <!-- Dynamic header -->
+    <div id="header-container" class="flex justify-between h-16 items-center lg:max-w-96 w-full px-5"></div>
+    <div class="flex justify-between h-6 items-center lg:max-w-96 w-full px-5 mb-5 mt-3">
+        <div><p class="font-montserrat font-bold opacity-75 mb-2">Welcome Back</p></div>
+        <div></div>
+    </div>
+   
+    <div class="w-full mx-auto">
+        <form class="bg-white rounded px-4 pt-6 pb-8">
+          <div class="mb-4">
+            <input class="text-xs appearance-none border-none outline-none rounded-xl w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline bg-gray-100" id="email" type="email" placeholder="Email">
+          </div>
+          <div class="mb-3 relative">
+            <input class="text-xs appearance-none border-none outline-none rounded-xl w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline bg-gray-100" id="password" type="password" placeholder="Password">
+            <i class="fa-regular fa-eye-slash absolute right-3 bottom-3 opacity-45"></i>
+          </div>
+          <div class="mb-60">
+            <label class="flex items-center">
+              <span class="ml-2 text-xs text-gray-600"><a href="#" class="underline text-xs">Forgot your password?</a></span>
+            </label>
+          </div>
+          <div class="flex items-center justify-between w-full">
+            <a href="androideLarge-6.html" class="w-full bg-blue-400 text-center hover:bg-blue-700 text-white py-3 px-4 rounded-xl text-xs focus:outline-none focus:shadow-outline" type="button">
+              Sign In
+            </a>
+          </div>
+        </form>
+    </div>
+      <div class="flex justify-between h-6 items-center lg:max-w-96 w-full px-5 mb-3">
+       <div class="flex justify-between h-6 items-center pb-3 text-gray-400">________________________</div>
+       <p class="text-xs font-semibold">Or</p>
+       <div class="flex justify-between h-6 items-center pb-3 text-gray-400">________________________</div>
+      </div>
+
+      <div class="flex justify-center h-6 items-center lg:max-w-96 w-full px-5 mb-5 mt-3">
+       <div class="border-2 rounded-md me-2"><i class="fa-brands fa-google p-3"></i></div>
+       <div class="border-2 rounded-md ms-2"><i class="fa-brands fa-facebook-f p-3 text-blue-600"></i></div>
+      </div>
+
+      <div class="flex justify-center h-6 items-center">
+        <p class="text-xs font-medium opacity-65 underline">Don't have an account?<a href="" class="text-blue-500 underline">Create an account</a></p>
+      </div>
+    
+ </div>
+
+ <script src="javascript/Index.js" defer></script>
+</body>
+</html>
